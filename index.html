@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="CV Sergiu George Micu">
-    <meta name="keywords" content="HTML, CSS, JavaScript, CV, Sergiu">
-    <meta name="author" content="Sergiu Micu">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
-    <title>Micu Sergiu-George</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="CV Sergiu George Micu">
+        <meta name="keywords" content="HTML, CSS, JavaScript, CV, Sergiu">
+        <meta name="author" content="Sergiu Micu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+        <link href="style.css" rel="stylesheet">
+        <link href="desktop.css" rel="stylesheet" media="(min-aspect-ratio:1/1)"> <!-- incarca css pt desktop-->
+        <link href="mobile.css" rel="stylesheet" media="(max-aspect-ratio:1/1)"> <!-- incarca css pt mobil-->
+        <title>Micu Sergiu-George</title>
 </head>
 <body>
     <div id="datePers" class="center">
-        <div id="nume" class="row">
+        <div class="row">
             <h1>Micu Sergiu-George</h1>
         </div>
-        <div id="data" class="row">
-            <div class="iconContainer">
+        <div title="Data nașterii" class="row">
+            <div class="iconContainer unselectable">
                 <img src="./icons/calendar.svg">
             </div>
             <div class="textContainer">
-                23.04.2001
+                23.04.2001 <div id="ageDisp"></div>
             </div>
         </div>
-        <div id="fac" class="row">
-            <div class="iconContainer">
+        <div title="Facultate" class="row">
+            <div class="iconContainer unselectable">
                 <img src="./icons/univ.svg">
             </div>
             <div class="textContainer">
@@ -34,8 +36,8 @@
                 Universitatea Politehnică București
             </div>
         </div>
-        <div id="liceu" class="row">
-            <div class="iconContainer">
+        <div title="Liceu" class="row">
+            <div class="iconContainer unselectable">
                 <img src="./icons/grad.svg">
             </div>
             <div class="textContainer">
@@ -44,16 +46,51 @@
                 Ploiești
             </div>
         </div>
-        <div id="telefon" title="Telefon" class="row">
-            <div class="iconContainer">
+        <div title="Oraș" class="row">
+            <div class="iconContainer unselectable">
+                <img src="./icons/loc.svg">
+            </div>
+            <div class="textContainer">
+                Ploiești
+            </div>
+        </div>
+        <div title="Certificat de limba engleză" class="row">
+            <div class="iconContainer unselectable">
+                <img src="./icons/united-kingdom.svg">
+            </div>
+            <div class="textContainer">
+                Certificate in Advanced English (CAE)<br>
+                Nivel C2
+            </div>
+        </div>
+        <div title="Certificat de limba franceză" class="row">
+            <div class="iconContainer unselectable">
+                <img src="./icons/france.svg">
+            </div>
+            <div class="textContainer">
+                Diplôme d'Etudes en Langue Française (DELF)<br>
+                Nivel B1
+            </div>
+        </div>
+        <div title="Cunoștințe de limba germană" class="row">
+            <div class="iconContainer unselectable">
+                <img src="./icons/germany.svg">
+            </div>
+            <div class="textContainer">
+                Fără certificare<br>
+                Nivel B1
+            </div>
+        </div>
+        <div title="Telefon" class="row">
+            <div class="iconContainer unselectable">
                 <img src="./icons/phone-call.svg">
             </div>
             <div class="textContainer">
                 <a href="tel:+40745520750">+40745520750</a>
             </div>
         </div class="row">
-        <div id="email" title="Email" class="row">
-            <div class="iconContainer">
+        <div title="Email" class="row">
+            <div class="iconContainer unselectable">
                 <img src="./icons/at.svg">
             </div>
             <div class="textContainer">
@@ -61,12 +98,13 @@
             </div>
         </div>
     </div>
-
+    
     
     <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
+    
+    <script src="main.js"></script> 
 </body>
 </html>
