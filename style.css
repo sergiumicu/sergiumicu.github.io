@@ -1,0 +1,25 @@
+body{
+    font-family: Ubuntu ;
+}
+.center{
+    text-align: center;
+}
+.iconContainer{
+    width: 40%;
+    padding-right: 1rem;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+.textContainer{
+    width: 50%;
+    padding-left: 1rem;
+    display: inline-block;
+    text-align: left;
+}
+#datePers .row{
+    padding: 1rem 0;
+}
+#datePers img{
+    height: 1rem;
+}
