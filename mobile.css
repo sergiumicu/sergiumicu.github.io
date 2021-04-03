@@ -4,3 +4,9 @@
     display: inline-block;
     vertical-align: top;
 }
+#datePers .iconContainer{
+    font-size: 0rem;
+}
+.textContainer{
+    width: 60%;
+}

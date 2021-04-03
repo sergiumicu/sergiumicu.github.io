@@ -5,3 +5,12 @@
     display: inline-block;
     vertical-align: top;
 }
+.textContainer{
+    width: 40%;
+}
+#datePers .iconContainer{
+    font-size: 2rem;
+}
+#datePers img{
+    margin-left: 2rem;
+}

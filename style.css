@@ -1,5 +1,7 @@
 body{
-    font-family: Ubuntu;
+    background-image: url("bg.svg");
+    background-attachment: fixed;
+    font-family: Ubuntu ;
 }
 .unselectable{
     user-select: none;
@@ -9,13 +11,19 @@ body{
 }
 .textContainer{
     display: inline-block;
-    width: 50%;
+    /* background-color: red; */
     text-align: left;
     padding-left: 1rem;
 }
 #datePers img{
     height: 2rem;
+    vertical-align: bottom;
 }
 #datePers .row{
     padding: 1rem 0;
+}
+#datePers .iconContainer{
+    color: #add;
+    line-height: 2rem;
+    /* background-color: lime; */
 }
