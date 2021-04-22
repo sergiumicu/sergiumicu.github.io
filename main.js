@@ -13,3 +13,13 @@ ageDisp.innerHTML = age;
     
 if(age >= 20) ageDisp.innerHTML += " de ani";
 else ageDisp.innerHTML += " ani"
+
+function showRights(e){
+    var elems = document.getElementsByClassName("rightsText");
+
+    for(var i = 0; i < elems.length; i++)
+        if(elems[i].style.display === '' || elems[i].style.display === 'none')
+            elems[i].style.display = 'block';
+        else
+            elems[i].style.display = 'none';
+}
