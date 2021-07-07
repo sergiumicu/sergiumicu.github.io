@@ -23,3 +23,7 @@ function showRights(e){
         else
             elems[i].style.display = 'none';
 }
+
+var ref = document.getElementById('ref')
+
+console.log(ref.clientWidth)

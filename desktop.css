@@ -11,6 +11,6 @@
 #datePers .iconContainer{
     font-size: 2rem;
 }
-#datePers img{
+#datePers img:not(#picture){
     margin-left: 2rem;
 }

@@ -1,7 +1,7 @@
 body{
     background-image: url("bg.svg");
     background-attachment: fixed;
-    font-family: Ubuntu ;
+    font-family: Ubuntu;
 }
 .unselectable{
     user-select: none;
@@ -18,7 +18,7 @@ body{
 .rightsText{
     display: none;
 }
-#datePers img{
+#datePers img:not(#picture){
     height: 2rem;
     vertical-align: bottom;
 }
@@ -26,7 +26,7 @@ body{
     padding: 1rem 0;
 }
 #datePers .iconContainer{
-    color: #add;
+    color: rgb(59, 138, 138);
     line-height: 2rem;
     /* background-color: lime; */
 }
@@ -40,4 +40,14 @@ body{
     width: 200px;
     display: block;
     content: "";
+}
+#picture{
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 12rem;
+}
+#mda{
+    display: inline-block;
+    /* background-color: red; */
+    max-width: max(50vw, 200px);
 }
