@@ -49,5 +49,5 @@ body{
 #mda{
     display: inline-block;
     /* background-color: red; */
-    max-width: max(50vw, 200px);
+    max-width: clamp(50vw, 350px, 80vw);
 }
