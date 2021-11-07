@@ -48,6 +48,10 @@ body{
 }
 #mda{
     display: inline-block;
+    text-align: justify;
     /* background-color: red; */
     width: clamp(50vw, 350px, 80vw);
+}
+#mda h1{
+    text-align: center;
 }
